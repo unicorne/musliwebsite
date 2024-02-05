@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cerealwebsite",
+  "private_key_id": "6d5fec91c076f91c563e4aa58adad665df0b5850",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdjFk4iSCF2NjE\nVQHcKrRfIDjGTx6mZ5kNfLL9y06L2YnBSSVkqbjV3G6/COHqWjhggQUibwIj8jr+\nTbqpSggTDrhRuZ8jmvMZH3msMmxgTj6N52f38PD04rrYqqvl5rxC2GF0RMm28YSn\nhWoCrz4D+Ya7NMXi6kA+qBd4PP4EB/Kk/aRiIfXIV9PMr8tWTlR2A1T420AsHUQy\n89xDodo4Wpa0CR4UY3kNPl6RjReVm1t3ojyyodNxgUMJjKC97fOUvWAgXQyANBKR\nneHKbExklVhMdsN6RtjFQBTGjn3fdvgonKr0FDklcvJii5Tyu4huIxBxmhufVENh\nLFJZ+iAHAgMBAAECggEAO/qQhPt/jDVP4P7T5HPFk2l689RvQL6z//R3WDOsRYWd\n8h3cxIPwwEpZRxUknMmYKPU1dTR5xiGT3/jLlWN/y3GRLlvSgAWfgvL+qVXQ+KER\nI4jzhesOcMxYgeAH7VB4X6JtB4yglqs/617ZSwhYPb8jUeX3aDnyF2h69uWRdwrO\njB/aMJVrm1mqUs7zF2JaMsmLKUmspAVJEVjQpphREsD89xwQdiArCTF8QJeuMnDF\nbzPXnMzC5yBk7AsJBk+t6crZvqGk+5fYxb6OVbtAK+o+ldh0bR3xpTyVFjYYb3gN\nzeoRNtYojn4eid5WwV2sgH1yd84i9finBvKqox46EQKBgQDQM0HqzlU5Mul5CagV\nyM0NN4FXblKuhqFIQ4bSFnluXwHo9FhHM7xZ3MJkGvdyaA6edYU3XTux7pWBj7ZG\nxPRsmYvVCoip4iZ5TmfDeOkYTJLInZf4qvhbPIYc7s90HU9x02c5dIjz77H/r055\nxglv8e7Py9EI4D0VcMw/pRR/DQKBgQDBuBNI9BFl6lrH40vxU750r8QcFqR/sZJs\nSA65nek9iuTR3WUJ/lceb8lOrkeDderj4BjOP59OOlhfhkYEGUSCRE1ao/Gxd5FR\nyr0/qYLQiMTULnBdnykSm3r3GIog1Brz6mCmKp0mgPoWrHUvCr/d2tkBktab+DRe\n4sCg+zF2YwKBgQC8V4Ir/ZfO9KWMXxX1Dv+gEzQoeZ7GTvgbvSp7ZuVW2Q+LQ2+Q\nida7nB8mG9b5YfTHmBx45xiXb/NDj1QfVRCgJY7/nFXhCLoxRqJLjFehKbQnU5kk\n1NVzA593EPoOWm2B1PIuYaN6uL1XRalCM8pZwIx+4iwpUWEwwiei851FCQKBgDEp\nfftttVyf9Rn1XTiJgDQsxyA5vtWJQxen0dTZdm/f5+I6xYGbwpA+3l/RauS58DqU\njLcK/mrj87mKYgp4PyKwItF1+ciIB6EySoT1h/VUQF94yZt44PuP6cz7tVJPgeeU\n+6Iv/mHfKZjHe5XMrJSpDZmQolZCz0elVC2Gki7xAoGABEPTSJlkplCjc/4JSSUb\n5LmmwAIOVGb3BhGw/eNkfXhsnt3tus4kFuSj/wRm3cHeF0mMK8UVz9t7Wt+zHnnb\naYF30t0T5ewEjL4vRR4ff2NSgc13WZlkWlmm8y6uDWSpwE8z+jJ6iCk67WCaBB5t\nNoTLBYOR7JfgLpxe1R2zF20=\n-----END PRIVATE KEY-----\n",
+  "client_email": "musli-702@cerealwebsite.iam.gserviceaccount.com",
+  "client_id": "110855951736713208813",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/musli-702%40cerealwebsite.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
