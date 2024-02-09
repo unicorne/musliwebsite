@@ -12,7 +12,8 @@ spreadsheet_id = "1fMlqflPJTg9oTuKthrAtgJdKLM124wMcgStw9fwLJ9Q"
 # spreadsheet_id = "8VaaiCuZ2q09IVndzU54s1RtxQreAxgFNaUPf9su5hK0"
 
 credentials = service_account.Credentials.from_service_account_file(
-    "key_private.json", scopes=["https://www.googleapis.com/auth/spreadsheets"]
+    "/Users/corneliuswiehl/Documents/privat/musliwebsite/musliwebsite/key_private.json",
+    scopes=["https://www.googleapis.com/auth/spreadsheets"],
 )
 service = build("sheets", "v4", credentials=credentials)
 
@@ -46,7 +47,7 @@ else:
 df["Gewicht"] = df["Gewicht"].apply(lambda x: float(x.replace("g", "")))
 
 # Ensure the 'Datum' column is in datetime format
-df["Datum"] = pd.to_datetime(df["Datum"])
+df["Datum"] = pd.to_datetime(df["Datum"], format="%d.%m.%Y")
 
 # Calculate total weight
 total_weight = df["Gewicht"].sum()
