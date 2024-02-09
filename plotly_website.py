@@ -208,5 +208,7 @@ final_html = html_template.format(
 )
 
 # Write the combined HTML to a file
-with open("index.html", "w") as f:
+with open(
+    "/Users/corneliuswiehl/Documents/privat/musliwebsite/musliwebsite/index.html", "w"
+) as f:
     f.write(final_html)
