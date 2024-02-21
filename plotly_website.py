@@ -118,10 +118,13 @@ total_prognose_kg = np.round(total_prognose / 1000, 2)
 pie_chart_html = fig_pie.to_html(
     full_html=False,
     include_plotlyjs="cdn",
+    # config={"responsive": True},  # Make the chart responsive
 )
+
 line_chart_html = fig_line.to_html(
     full_html=False,
     include_plotlyjs="cdn",
+    # config={"responsive": True},  # Make the chart responsive
 )
 
 # Adjusted HTML template with double braces for CSS and JavaScript sections
@@ -144,39 +147,37 @@ html_template = """
         }}
         .info-container {{
             display: flex;
-            justify-content: space-around; /* Distribute space evenly around the items */
-            align-items: center; /* Align items vertically in the center */
-            width: 100%; /* Take full width of the container */
-            margin: 20px 0; /* Add some margin above and below the container */
+            flex-wrap: wrap; /* Allow items to wrap on small screens */
+            justify-content: center; /* Center items on small screens */
+            align-items: center;
+            width: 100%;
+            margin: 20px 0;
         }}
-
         .total-weight {{
-            margin: 0 10px; /* Adjust margin for individual items */
+            margin: 10px; /* Adjust for spacing on all sides */
             padding: 10px 20px;
             border: 2px solid #007BFF;
             border-radius: 8px;
             font-size: 24px;
             color: #007BFF;
             background-color: #f0f0f0;
-            flex: 1; /* Allow each item to grow equally */
+            flex: 1; /* Allow flex items to grow to fill available space */
+            max-width: 300px; /* Max width to prevent overly large blocks on wide screens */
         }}
         .chart-container {{
-            display: flex;
-            justify-content: center; /* Center children horizontally */
-            align-items: center; /* Center children vertically if there's vertical space */
             width: 100%;
+            display: flex;
+            flex-direction: column; /* Stack charts vertically */
+            align-items: center;
             margin-top: 20px;
         }}
         .chart {{
-            flex: 1; /* Each chart takes equal width */
-            border: 1px solid #ccc;
-            margin: 10px;
+            width: 90%; /* Use a percentage of the viewport width */
+            max-width: 600px; /* Max width to prevent overly wide charts */
+            margin: 10px 0; /* Add vertical margin */
             padding: 10px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            display: flex;
-            justify-content: center; /* Center the chart within the div */
-            align-items: center; /* Vertically center the chart within the div */
         }}
     </style>
 </head>
@@ -192,10 +193,11 @@ html_template = """
     </div>
 
     <script>
-        // Your JavaScript for Plotly charts goes here
+        // Insert JavaScript here if needed
     </script>
 </body>
 </html>
+
 
 """
 
