@@ -45,7 +45,6 @@ else:
     df = pd.DataFrame(values[1:], columns=values[0])
 
 df["Gewicht"] = df["Gewicht"].apply(lambda x: float(x.replace("g", "")))
-
 # Ensure the 'Datum' column is in datetime format
 df["Datum"] = pd.to_datetime(df["Datum"], format="%d.%m.%Y")
 
