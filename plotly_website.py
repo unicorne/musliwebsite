@@ -12,7 +12,7 @@ spreadsheet_id = "1fMlqflPJTg9oTuKthrAtgJdKLM124wMcgStw9fwLJ9Q"
 # spreadsheet_id = "8VaaiCuZ2q09IVndzU54s1RtxQreAxgFNaUPf9su5hK0"
 
 credentials = service_account.Credentials.from_service_account_file(
-    "/Users/corneliuswiehl/Documents/privat/musliwebsite/musliwebsite/key_private.json",
+    "/Users/Shared/cronscripts/musliwebsite/key_private.json",
     scopes=["https://www.googleapis.com/auth/spreadsheets"],
 )
 service = build("sheets", "v4", credentials=credentials)
@@ -211,6 +211,6 @@ final_html = html_template.format(
 
 # Write the combined HTML to a file
 with open(
-    "/Users/corneliuswiehl/Documents/privat/musliwebsite/musliwebsite/index.html", "w"
+    "/Users/Shared/cronscripts/musliwebsite/index.html", "w"
 ) as f:
     f.write(final_html)
